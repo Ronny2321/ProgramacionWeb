@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    background-color: darkgoldenrod;
+}
+
+.circulo {
+    width: 30%;
+    max-height: 300px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+
+}
+
+.cajita {
+    width: 30%;
+    height: 30%;
+    background-color: chocolate;
+}
+
+#contenedor-cajas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+#contenedor-circulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: nowrap;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    border: solid black;
+}
+
+#padre {
+    background-color: blueviolet;
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
