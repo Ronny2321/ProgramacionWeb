@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.cuadro {
+.cuadro{
     width: 200px;
     height: 200px;
     background-color: yellow;
@@ -13,7 +13,7 @@
 
 #container {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,39 +29,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
 }
 
-nav {
+
+
+#dos{
+    background-color: red;
     position: sticky;
-    top: 0px;
-}
+    top: 100px;
+    left: 120px;
 
-ul {
-    display: flex;
-    font-size: 2rem;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 80px;
-
-}
-
-a {
-    text-decoration: none;
-    color: red;
-}
-
-.boton {
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    border-radius: 50%;
 }
 
 footer {
