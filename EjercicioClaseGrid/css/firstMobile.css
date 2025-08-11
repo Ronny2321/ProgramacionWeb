@@ -13,7 +13,7 @@ body {
     margin: 30px auto;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     padding: 10px;
 }
 
@@ -23,6 +23,9 @@ body {
     background: #fafafa;
     border-radius: 4px;
     text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
 .encabezado { grid-row: 1; }
