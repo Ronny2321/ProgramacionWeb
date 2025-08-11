@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: white;
 }
 
 .grid-container {
@@ -19,7 +20,7 @@ body {
 .grid-container > * {
     border: 1px dashed #222;
     padding: 10px;
-    background: #fafafa;
+    background: white;
     border-radius: 4px;
     text-align: left;
     font-size: 1.3rem;
