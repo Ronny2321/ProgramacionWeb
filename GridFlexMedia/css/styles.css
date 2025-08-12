@@ -4,36 +4,50 @@
     box-sizing: border-box;
 }
 
+nav {
+    display: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #f8f8f8;
     height: 20vh;
 }
 
 #sectionA {
-    height: 100vh;
-    background-color: aquamarine;
+    height: 90vh;
+    background-color: #9fb7da;
 }
 
-.cuadronumero {
+.cuadro-numero {
     height: 50vh;
     border: 1px solid black;
 }
 
 .box-news {
     height: 100vh;
+    background-color: aquamarine;
     border: 1px solid black;
-    background-color: mediumblue;
 }
 
 footer {
     height: 100vh;
 }
 
+#contact {
+    height: 90%;
+    background-color: lightslategray;
+    border: 1px solid black;
+}
 
+#aboutMe {
+    height: 10%;
+    background-color: #ccc;
+    border: 1px solid black;
+}
 
 #container-title {
     display: flex;
@@ -43,18 +57,6 @@ h1 {
     margin-left: 10px;
 }
 
-#contact {
-    height: 90%;
-    background-color: darkgray;
-    border: 1px solid black;
-}
-
-#aboutMe {
-    height: 10%;
-    background-color: lightgray;
-    border: 1px solid black;
-}
-
 @media (min-width: 480px) and (max-width: 768px) {
     #sectionNumbers {
         display: flex;
@@ -62,10 +64,9 @@ h1 {
         background-color: red;
     }
 
-    .cuadronumero {
-        height: 35vh;
+    .cuadro-numero {
         width: 50%;
-
+        height: 35vh;
     }
 
     #sectionA {
@@ -79,7 +80,6 @@ h1 {
     footer {
         height: 50vh;
     }
-
 }
 
 @media (min-width: 769px) {
@@ -87,7 +87,7 @@ h1 {
         display: flex;
     }
 
-    .cuadronumero {
+    .cuadro-numero {
         width: 25%;
         height: 40vh;
     }
@@ -100,12 +100,11 @@ h1 {
         height: 50vh;
     }
 
-    nav{
+    nav {
         display: flex;
     }
 
     #menu-icon {
         display: none;
     }
-
 }
